@@ -4,7 +4,7 @@
       <h2 class="numbered-heading">About Me</h2>
     </div>
     <v-row>
-      <v-col lg="6" md="12">
+      <v-col lg="6" md="12" sm="12" xs="12">
         <p class="pb-2">Hello! My name is Patricio and I enjoy creating things that live on the internet. My interest in 
           web development started back in 2020 when I decided to start studying web development — turns out 
           hacking together a custom button taught me a lot about HTML & CSS!</p>
@@ -15,7 +15,7 @@
           we come up with better solutions and achieve greater results. </p>
         <Skills />
       </v-col>
-      <v-col lg="6" md="12" class="d-flex justify-center">
+      <v-col lg="6" md="12" sm="12" xs="12" class="d-flex justify-center">
         <picture>
           <source type="image/webp" srcset="../assets/Patricio.webp">
           <img width="300" data-main-image src="../assets/Patricio.png" alt="Headshot">
@@ -31,8 +31,3 @@ export default {
   components: {Skills}
 }
 </script>
-<style>
-#headshot img {
-  object-fit: cover;
-}
-</style>

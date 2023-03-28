@@ -31,14 +31,6 @@ ul li{
     width: 100%;
     white-space: nowrap;
 }
-.numbered-heading::before {
-    position: relative;
-    counter-increment: section 1;
-    content: "0" counter(section) ".";
-    margin-right: 10px;
-    color: #E5383B;
-    font-weight: 400;
-}
 .numbered-heading::after {
     content: "";
     display: block;
@@ -53,16 +45,34 @@ section{
     width: 90%;
     margin: auto;
 }
+img {
+    object-fit: cover;
+}
+picture {
+    position: relative;
+}
+#work picture img {
+    width: 500px;
+}
+.work-content {
+    position: relative;
+}
+.work-content .v-card {
+    width:500px;
+    margin-top: 20px;
+}
+#work h3 {
+    font-size: 25px;
+}
 @media  (min-width: 1025px) {
     section{
         width: 70%;
         margin: auto;
     }
 }
-@media (min-width: 481px) and (max-width: 1024px){
-
+@media (min-width: 481px) and (max-width: 1279px){
 }
-@media (max-width: 600px) {
+@media (max-width: 959px) {
     section{
         padding: 0 10px;
     }
@@ -88,13 +98,39 @@ section{
       display: block;
       padding: 10px 0;
     }
+    picture {
+        margin-top: 20px;
+    }
+    #work picture img {
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+    #work h3{
+        justify-content: center;
+    }
+    #work .work-content {
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .work-content .v-card {
+        width: 90%;
+        height: auto;
+        margin-top: 0px;
+    }
+    .v-row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+a,a:visited {
+    text-align: center;
+    text-decoration: none;
+    color: #660708;
 }
 .topnav a, .topnav a:visited {
     float: left;
     display: block;
-    color: #660708;
-    text-align: center;
-    text-decoration: none;
     font-size: 17px;
     align-items: center;
     padding: 20px;

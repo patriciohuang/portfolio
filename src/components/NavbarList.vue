@@ -1,6 +1,6 @@
 <template>
     <a id="logo" href="/">Patricio Huang</a>
-    <nav class="topnav " :class="{ responsive: active }" id="myTopnav">
+    <nav class="topnav" :class="{ responsive: active }" id="myTopnav">
         <a href="/" class="list-style-none text-button text-decoration-none active" @click="toggleNav()">Home</a> 
         <a href="#about" class="text-button text-decoration-none" @click="toggleNav()">About</a> 
         <a href="#work" class="text-button text-decoration-none" @click="toggleNav()">Work</a> 
