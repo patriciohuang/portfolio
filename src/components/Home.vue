@@ -13,7 +13,6 @@
         </div>
         <p class="pt-6">Passionate about web development with a strong willingness to learn, I know my versatile skills and qualifications will make me an asset to the team.
         </p>
-        <i class="fas fa-bars"></i>
       </div>
     </div>
   </section>

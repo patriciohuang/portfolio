@@ -42,7 +42,7 @@ ul li{
 }
 section{
     padding-top: 100px;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 img {
@@ -69,8 +69,21 @@ picture {
         width: 70%;
         margin: auto;
     }
-}
-@media (min-width: 481px) and (max-width: 1279px){
+    footer #social-links {
+        width: 40px;
+        position: fixed;
+        bottom: 0px;
+        left: 40px;
+        right: auto;
+    }
+    footer #social-links::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0px auto;
+        background-color: #660708;
+    }
 }
 @media (max-width: 959px) {
     section{
@@ -121,6 +134,16 @@ picture {
     .v-row {
         display: flex;
         flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer #social-links ul{
+        display: flex;
+    }
+    footer #social-links ul li{
+        padding: 10px;
     }
 }
 a,a:visited {

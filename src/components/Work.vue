@@ -23,7 +23,7 @@
                 remaining essentially unchanged. It was popularised in the 1960s with 
                 the release of Letraset sheets containing Lorem Ipsum passages, 
                 and more recently with desktop publishing software like Aldus 
-                PageMaker including versions of Lorem Ipsum." position="relative" color="#B1A7A6"></v-card>
+                PageMaker including versions of Lorem Ipsum." position="relative" color="#F5F3F4"></v-card>
             </v-col>
         </v-row>
     </section>

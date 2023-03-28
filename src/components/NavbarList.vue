@@ -6,7 +6,7 @@
         <a href="#work" class="text-button text-decoration-none" @click="toggleNav()">Work</a> 
         <a href="#contact" class="text-button text-decoration-none"  @click="toggleNav()">Contact</a> 
         <a href="javascript:void(0);" class="icon" @click="toggleNav()">
-            <i class="fa fa-bars"></i>
+            <font-awesome-icon :icon="['fas', 'fa-bars']" />
         </a>
     </nav>
 </template>
