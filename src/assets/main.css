@@ -92,6 +92,11 @@ picture {
     }
 }
 @media (max-width: 1024px) {
+#about #photo {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
 footer{
     display: flex;
     flex-direction: column;

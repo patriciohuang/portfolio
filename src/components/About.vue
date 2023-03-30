@@ -17,7 +17,7 @@
           and impactful digital solutions.</p>
         <Skills />
       </v-col>
-      <v-col lg="6" md="12" sm="12" xs="12" class="d-flex justify-end">
+      <v-col lg="6" md="12" sm="12" xs="12" id="photo" class="d-flex justify-end">
         <picture>
           <source type="image/webp" srcset="../assets/Patricio.webp">
           <img width="300" data-main-image src="../assets/Patricio.png" alt="Headshot">
