@@ -64,9 +64,15 @@ picture {
 #work h3 {
     font-size: 25px;
 }
+#work #links {
+    margin-top: 20px;
+}
+#work #links a {
+    margin-left: 20px;
+}
 @media  (min-width: 1025px) {
     section{
-        width: 70%;
+        width: 50%;
         margin: auto;
     }
     footer #social-links {
@@ -84,6 +90,18 @@ picture {
         margin: 0px auto;
         background-color: #660708;
     }
+}
+@media (max-width: 1024px) {
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer #social-links ul{
+    display: flex;
+}
+footer #social-links ul li{
+    padding: 10px;
+}
 }
 @media (max-width: 959px) {
     section{
@@ -134,16 +152,6 @@ picture {
     .v-row {
         display: flex;
         flex-direction: column;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-    }
-    footer #social-links ul{
-        display: flex;
-    }
-    footer #social-links ul li{
-        padding: 10px;
     }
 }
 a,a:visited {
