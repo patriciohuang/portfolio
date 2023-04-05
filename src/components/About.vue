@@ -5,9 +5,9 @@
     </div>
     <v-row>
       <v-col lg="6" md="12" sm="12" xs="12">
-        <p class="pb-2">Hello! My name is Patricio and I enjoy creating things that live on the internet. My interest in 
-          web development started back in 2020 when I decided to start studying web development. I found that creating small, 
-          custom website features was a fun way to learn the ins and outs of HTML & CSS, and it sparked my interest in web development.</p>
+        <p class="pb-2">Hello! My name is Patricio and I enjoy creating things that live on the internet. My interest 
+          started back in 2020 when I decided to start studying web development. I found that creating small, 
+          custom website features was a fun way to learn the ins and outs of HTML & CSS, and it sparked my interest.</p>
         <p class="pb-2"> While I have yet to secure my first development job, I have gained valuable experience by building 
           several projects during my studies. These projects have allowed me to hone my skills in web development, and I'm 
           confident in my ability to take on new challenges. </p>
