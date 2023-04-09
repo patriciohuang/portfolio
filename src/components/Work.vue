@@ -28,6 +28,9 @@
                     </div>
                 </v-card>    
                 <div id="links">
+                    <a href="https://github.com/patriciohuang/home-stock-manager" target="_blank">
+                        <v-icon icon="mdi-github"></v-icon>
+                    </a>
                     <a href="https://home-stock-manager.vercel.app" target="_blank">
                         <v-icon icon="mdi-open-in-new"></v-icon>
                     </a>
