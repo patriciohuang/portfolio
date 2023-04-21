@@ -25,7 +25,7 @@
       },
       {
         icon: 'mdi-linkedin',
-        href: 'https://www.linkedin.com/in/patricio-huang-055b05129/'
+        href: 'https://www.linkedin.com/in/patricio-huang-a8124b1ab/'
       },
       {
         icon: 'mdi-instagram',
