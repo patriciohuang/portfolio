@@ -4,7 +4,7 @@
       <h2 class="numbered-heading">About Me</h2>
     </div>
     <v-row>
-      <v-col lg="6" md="12" sm="12" xs="12">
+      <v-col md="12">
         <p class="pb-2">Hello! My name is Patricio and I enjoy creating things that live on the internet. My interest 
           started back in 2020 when I decided to start studying web development. I found that creating small, 
           custom website features was a fun way to learn the ins and outs of HTML & CSS, and it sparked my interest.</p>
@@ -17,14 +17,7 @@
           and impactful digital solutions.</p>
         <Skills />
       </v-col>
-      <v-col lg="6" md="12" sm="12" xs="12" id="photo" class="d-flex justify-end">
-        <picture>
-          <source type="image/webp" srcset="../assets/Patricio.webp">
-          <img width="300" data-main-image src="../assets/Patricio.png" alt="Headshot">
-        </picture>
-      </v-col>
     </v-row>
-    
   </section>
 </template>
 <script>

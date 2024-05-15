@@ -2,7 +2,7 @@
   <section id="home">
     <div id="presentation" class="d-flex justify-center flex-column">
       <p>Hi! My name is</p>
-      <h1>Patricio Huang.</h1> 
+      <h1>Patricio Huang.</h1>
       <p class="fonts">I create digital solutions using web technologies</p>
       <div>
         <v-chip color="primary" class="mt-6">

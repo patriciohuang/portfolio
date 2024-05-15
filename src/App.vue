@@ -3,7 +3,6 @@
     <header class="d-flex justify-space-between">
       <NavbarList />
     </header>
-    
     <v-main >
       <RouterView />
     </v-main>
@@ -22,6 +21,13 @@ export default {
 
 </script>
 <style>
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
 nav a:link, a:visited, #logo {
   color: black;
   text-decoration: none;

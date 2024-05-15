@@ -1,7 +1,7 @@
 <template>
     <div id="skills">
         <h3>Here are a few technologies I’ve been working with recently:</h3>
-        <v-row>              
+        <v-row>
             <v-col>
                 <ul class="d-flex align-content-start flex-wrap">
                     <li>
@@ -50,6 +50,30 @@
                                 <img src="../assets/node.png" alt="Node.js"/>
                             </div>
                             <p>Node.js</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex justify-center">
+                                <img src="../assets/php.png" alt="Php"/>
+                            </div>
+                            <p>PHP</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex justify-center">
+                                <img src="../assets/python.png" alt="Python"/>
+                            </div>
+                            <p>Python</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex justify-center">
+                                <img src="../assets/react.png" alt="React"/>
+                            </div>
+                            <p>React</p>
                         </div>
                     </li>
                     <li>
