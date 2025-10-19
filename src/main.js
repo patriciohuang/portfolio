@@ -11,6 +11,8 @@ import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
 import { createVuetify } from 'vuetify'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 const myCustomLightTheme = {
@@ -64,3 +66,10 @@ app.component('font-awesome-icon', FontAwesomeIcon)
 app.use(router)
 app.use(vuetify)
 app.mount('#app')
+
+
+AOS.init({
+  duration: 800, // subtle speed
+  easing: 'ease-in-out',
+  once: true, // animation only once
+})

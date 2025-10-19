@@ -1,15 +1,28 @@
-<template>  
-  <Home />
-  <About />
-  <Work />
-  <Contact />
+<template>
+  <main class="flex-1">
+    <HeroSection :cv-link="cvLink" />
+    <AboutSection />
+    <ProjectsSection />
+    <SkillsSection />
+    <ExperienceSection />
+    <ContactSection :cv-link="cvLink" />
+  </main>
 </template>
 <script>
-import Home from '@/components/Home.vue';
-import About from '@/components/About.vue';
-import Work from '@/components/Work.vue';
-import Contact from '@/components/Contact.vue';
+import HeroSection from '../components/HeroSection.vue';
+import AboutSection from '../components/AboutSection.vue';
+import ProjectsSection from '../components/ProjectsSection.vue';
+import SkillsSection from '../components/SkillsSection.vue';
+import ExperienceSection from '../components/ExperienceSection.vue';
+import ContactSection from '../components/ContactSection.vue';
+
 export default {
-  components: { Home, About, Work, Contact }
+  props: {
+    cvLink: {
+      type: String,
+      required: true
+    }
+  },
+  components: { HeroSection, AboutSection, ProjectsSection, SkillsSection, ExperienceSection, ContactSection }
 }
 </script>
