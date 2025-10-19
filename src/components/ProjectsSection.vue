@@ -69,7 +69,7 @@ export default {
         {
           title: 'Fitness Website (web-markup)',
           description: 'Static site for workout guides — HTML, CSS, responsive layout. Focus on accessibility and beginner UX.',
-          imageSrc: '/src/assets/startfit.png',
+          imageSrc: '/startfit.png',
           tags: ['HTML', 'CSS', 'Responsive'],
           github: 'https://github.com/Patohuang/web-markup',
           demo: 'https://startfit-jdggfi1zd-patriciohuangs-projects.vercel.app/'
@@ -77,7 +77,7 @@ export default {
         {
           title: 'Home Stock Manager (Vue 3 / Firebase)',
           description: 'A responsive web app that helps manage home inventory more easily. Users can add, edit, and track household items with expiration dates, organize them by category, and quickly see which products are running low. Built with Vue 3, Vuetify, and Firebase for real-time updates and authentication.',
-          imageSrc: '/src/assets/home-stock-manager.png',
+          imageSrc: '/home-stock-manager.png',
           tags: ['Vue 3', 'Vuetify', 'Firebase', 'Vuelidate', 'Vue Router', 'PWA'],
           github: 'https://github.com/patriciohuang/home-stock-manager',
           demo: 'https://home-stock-manager.vercel.app/'
@@ -85,7 +85,7 @@ export default {
         {
           title: 'Chapeau - Restaurant Ordering System (C# / ASP.NET Core)',
           description: 'A comprehensive, staff-facing ordering system built by a team to manage restaurant operations, featuring dedicated modules for Waiters (CRUD orders), Kitchen/Bar (Order Fulfillment), Payments (Splitting/Methods), and Employee Authentication.',
-          imageSrc: '/src/assets/Chapeau.jpeg',
+          imageSrc: '/Chapeau.jpeg',
           tags: ['C#', 'ASP.NET Core', 'SQL Server', 'Entity Framework Core', 'HTML', 'CSS', 'JavaScript'],
           github: 'https://github.com/patriciohuang/Chapeau',
           demo: null
@@ -93,7 +93,7 @@ export default {
         {
           title: 'Someren - Study Trip Logistics System (C# / Database)',
           description: 'A logistics and financial administration system for a student study trip. Key features include multi-user accommodation assignment (rooms/dormitories), participant registration (students/lecturers), activity tracking, and bar sales management with VAT calculation.',
-          imageSrc: '/src/assets/someren.jpeg',
+          imageSrc: '/someren.jpeg',
           tags: ['C#', '.NET', 'SQL Database', 'Database Design', 'UML', 'Data Management'],
           github: 'https://github.com/patriciohuang/Someren',
           demo: null
