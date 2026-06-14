@@ -111,12 +111,16 @@ export default {
         }
 
         const params = {
+          name: this.form.name,
           from_name: this.form.name,
           from_email: this.form.email,
           message: this.form.message,
         }
 
+        // Sends the notification to Patricio. EmailJS automatically sends the
+        // linked auto-reply template back to the visitor ({{from_email}}).
         await emailjs.send(serviceID, templateID, params, publicKey)
+
         this.status = '✅ Message sent successfully!'
         this.form = { name: '', email: '', message: '' }
       } catch (error) {
