@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="./src/assets/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patricio Huang - Portfolio</title>
+    <meta name="description" content="Patricio Huang — IT student and software developer based in Amsterdam. Building reliable, well-crafted web applications.">
+    <title>Patricio Huang — Software Developer</title>
+    <!-- Set theme before paint to avoid a flash of the wrong theme -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-

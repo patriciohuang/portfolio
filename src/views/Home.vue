@@ -1,19 +1,22 @@
 <template>
   <main class="flex-1">
     <HeroSection :cv-link="cvLink" />
-    <AboutSection />
+    <EducationSection />
     <ProjectsSection />
-    <SkillsSection />
     <ExperienceSection />
-    <ContactSection :cv-link="cvLink" />
+    <SkillsSection />
+    <AboutSection />
+    <ContactSection />
   </main>
 </template>
+
 <script>
 import HeroSection from '../components/HeroSection.vue';
-import AboutSection from '../components/AboutSection.vue';
+import EducationSection from '../components/EducationSection.vue';
 import ProjectsSection from '../components/ProjectsSection.vue';
-import SkillsSection from '../components/SkillsSection.vue';
 import ExperienceSection from '../components/ExperienceSection.vue';
+import SkillsSection from '../components/SkillsSection.vue';
+import AboutSection from '../components/AboutSection.vue';
 import ContactSection from '../components/ContactSection.vue';
 
 export default {
@@ -23,6 +26,6 @@ export default {
       required: true
     }
   },
-  components: { HeroSection, AboutSection, ProjectsSection, SkillsSection, ExperienceSection, ContactSection }
+  components: { HeroSection, EducationSection, ProjectsSection, ExperienceSection, SkillsSection, AboutSection, ContactSection }
 }
 </script>
