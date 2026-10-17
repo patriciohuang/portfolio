@@ -65,16 +65,16 @@ export default {
       modalImageSrc: '',
       projects: [
         {
-          title: 'ItineraryHub — Travel Planning Web App',
-          description: 'A travel planning platform built on a custom MVC architecture (no frameworks) with a clean separation of Controllers, Services, and Views. Trip invitations update in real time with no page refresh using AJAX and REST APIs.',
+          title: 'ItineraryHub, Travel Planning Web App',
+          description: 'A web app for planning trips. I built it with my own MVC structure, without a framework, so Controllers, Services and Views are separated. Trip invitations update right away without reloading the page, using AJAX and a REST API.',
           imageSrc: '/itineraryhub.png',
           tags: ['C#', 'Custom MVC', 'AJAX', 'REST API', 'MySQL'],
           github: 'https://github.com/patriciohuang/ItineraryHub',
           demo: null
         },
         {
-          title: 'Chapeau — Restaurant Ordering System',
-          description: 'A full-stack, staff-facing ordering system built by a 4-person team, with modules for Waiters (CRUD orders), Kitchen/Bar fulfillment, payments, and employee authentication. I built the Kitchen and Bar view for real-time order tracking.',
+          title: 'Chapeau, Restaurant Ordering System',
+          description: 'An ordering system for restaurant staff, made in a team of 4. It has parts for waiters, the kitchen and bar, payments, and employee login. I built the Kitchen and Bar view, where staff can follow orders live.',
           imageSrc: '/Chapeau.jpeg',
           tags: ['C#', 'ASP.NET Core', 'SQL Server', 'Entity Framework'],
           github: 'https://github.com/patriciohuang/Chapeau',
@@ -82,15 +82,15 @@ export default {
         },
         {
           title: 'Home Stock Manager',
-          description: 'A responsive PWA for managing home inventory — add, edit, and track items with expiration dates, organize by category, and spot what is running low. Built with Vue 3 and Firebase for real-time updates and authentication.',
+          description: 'A web app (PWA) to keep track of what you have at home. You can add and edit items, set expiration dates, sort by category, and see what is running low. I built it with Vue 3 and Firebase.',
           imageSrc: '/home-stock-manager.png',
           tags: ['Vue 3', 'Vuetify', 'Firebase', 'PWA'],
           github: 'https://github.com/patriciohuang/home-stock-manager',
           demo: 'https://home-stock-manager.vercel.app/'
         },
         {
-          title: 'Someren — Study Trip Logistics',
-          description: 'A logistics and financial administration system for a student study trip: multi-user accommodation assignment, participant registration, activity tracking, and bar sales with VAT calculation.',
+          title: 'Someren, Study Trip Logistics',
+          description: 'A system to organize a student study trip. It handles accommodation assignment, participant registration, activity tracking, and bar sales with VAT.',
           imageSrc: '/someren.jpeg',
           tags: ['C#', '.NET', 'SQL', 'Database Design', 'UML'],
           github: 'https://github.com/patriciohuang/Someren',
@@ -98,7 +98,7 @@ export default {
         },
         {
           title: 'Fitness Website',
-          description: 'A static, fully responsive site for workout guides built with HTML and CSS, with a focus on accessibility and a beginner-friendly user experience.',
+          description: 'A simple website with workout guides, made with HTML and CSS. It works on all screen sizes and is easy to use for beginners.',
           imageSrc: '/startfit.png',
           tags: ['HTML', 'CSS', 'Responsive'],
           github: 'https://github.com/Patohuang/web-markup',

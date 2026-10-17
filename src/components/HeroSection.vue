@@ -4,7 +4,7 @@
       <div class="md:col-span-3" v-reveal>
         <p class="inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-zinc-50 px-3 py-1 text-xs font-medium text-zinc-600 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400">
           <span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>
-          Available for internships &amp; junior roles
+          Open to junior roles
         </p>
 
         <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05] text-zinc-900 dark:text-zinc-50">
@@ -15,9 +15,10 @@
         </p>
 
         <p class="mt-6 max-w-xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-300">
-          I build websites and applications that are simple, reliable, and enjoyable to use — pairing the creative side
-          of design with the logic of <span class="font-semibold text-zinc-800 dark:text-zinc-100">C#</span> and
-          <span class="font-semibold text-zinc-800 dark:text-zinc-100">JavaScript</span>. Based in Amsterdam.
+          I'm a second-year IT student and I like building websites and apps that are simple and easy to use.
+          I work mostly with <span class="font-semibold text-zinc-800 dark:text-zinc-100">C#</span> and
+          <span class="font-semibold text-zinc-800 dark:text-zinc-100">JavaScript</span>.
+          Right now I'm doing my internship at GenomeScan in Leiden. I live in Amsterdam.
         </p>
 
         <div class="mt-8 flex flex-wrap gap-3">

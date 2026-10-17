@@ -23,7 +23,7 @@
               fill="currentColor"><path fill-rule="evenodd"
                 d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.3 3.3 6.8-6.8a1 1 0 0 1 1.4 0z"
                 clip-rule="evenodd" /></svg>
-            <span><span class="font-semibold text-zinc-800 dark:text-zinc-100">Propedeuse awarded</span> — completed the
+            <span><span class="font-semibold text-zinc-800 dark:text-zinc-100">Propedeuse awarded</span>, completed the
               full first-year diploma.</span>
           </li>
           <li class="flex gap-2.5">
@@ -31,7 +31,7 @@
               fill="currentColor"><path fill-rule="evenodd"
                 d="M16.7 5.3a1 1 0 0 1 0 1.4l-7.5 7.5a1 1 0 0 1-1.4 0L3.3 9.7a1 1 0 1 1 1.4-1.4l3.3 3.3 6.8-6.8a1 1 0 0 1 1.4 0z"
                 clip-rule="evenodd" /></svg>
-            <span><span class="font-semibold text-zinc-800 dark:text-zinc-100">Student Assistant</span> — supporting
+            <span><span class="font-semibold text-zinc-800 dark:text-zinc-100">Student Assistant</span>, supporting
               first-year IT students with coursework and technical guidance.</span>
           </li>
           <li class="flex gap-2.5">

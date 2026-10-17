@@ -10,14 +10,15 @@
         <p>
           I grew up in Argentina and moved to the Netherlands to study
           <span class="font-semibold text-zinc-800 dark:text-zinc-100">Information Technology</span> at InHolland.
-          Before my studies I worked at <span class="font-semibold text-zinc-800 dark:text-zinc-100">Wabi Inc.</span>
-          as an Operations Analyst — a tech-heavy role managing Salesforce, GraphQL integrations, and automation that
-          taught me how to bridge technical systems with real-world processes.
+          Before my studies, I worked as an Operations Analyst at
+          <span class="font-semibold text-zinc-800 dark:text-zinc-100">Wabi Inc.</span>
+          I worked with Salesforce, GraphQL and automation there. It taught me how to connect technical systems
+          with the way people actually work.
         </p>
         <p>
-          Today I'm focused on web development, security, and data management, pairing university theory with hands-on
-          projects that demand both critical and creative problem-solving. Outside of code, I play volleyball, train at
-          the gym, and explore the city by bike — because continuous discovery is what keeps me motivated.
+          Now I focus on web development, security and data management. I like to mix what I learn at university
+          with real projects, because they make me think and be creative. Outside of code, I play volleyball, go to
+          the gym and explore the city by bike. I like discovering new things, and that keeps me motivated.
         </p>
       </div>
     </div>

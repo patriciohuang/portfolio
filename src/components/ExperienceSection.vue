@@ -40,13 +40,16 @@ export default {
     return {
       jobs: [
         {
-          role: 'Waiter',
-          company: 'Takumi Ramen Amsterdam',
-          location: 'Netherlands',
-          period: 'Mar 2024 — Present',
+          role: 'Software Development Intern',
+          company: 'GenomeScan B.V.',
+          location: 'Leiden, Netherlands',
+          period: 'Sep 2026 — Jan 2027',
           current: true,
           points: [
-            'Deliver attentive customer service in a fast-paced environment while managing orders and resolving issues, demonstrating adaptability and teamwork.'
+            'Building the <strong class="font-semibold text-zinc-800 dark:text-zinc-100">Sample Management module</strong> for LIMS3, the laboratory information system used for genomic sequencing, as part of the ICT department.',
+            'Developing a file upload feature for customer submission forms, with validation and an editable review table so submitted data can be checked and corrected before it is saved.',
+            'Implementing database writes for submitted samples and syncing customer portal submissions into LIMS3.',
+            'Improving error handling in the existing samples section to make the platform more reliable for users.'
           ]
         },
         {
